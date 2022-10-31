@@ -1,0 +1,15 @@
+body {
+background-color: #021027;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 1s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+html { 
+    overflow-x: hidden !important; 
+}
