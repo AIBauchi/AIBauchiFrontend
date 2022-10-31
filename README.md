@@ -67,3 +67,35 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+=======
+# Nuxt.js Example
+
+Deploy your [Nuxt.js](https://nuxtjs.org) project to Vercel with zero configuration.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/nuxtjs&template=nuxtjs)
+
+_Live Example: https://nuxtjs-template.vercel.app_
+
+## Setup
+
+Install the dependencies:
+
+```bash
+yarn install
+```
+
+## Development
+
+Start the development server on http://localhost:3000:
+
+```bash
+yarn dev
+```
+
+## Deploy Your Own
+
+Build the application for production:
+
+```bash
+yarn build
+```
