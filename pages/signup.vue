@@ -22,7 +22,7 @@
                     <input type="text" v-model="username" class="text-sm outline-none pb-2 w-full border-yellow-400 border-b hover:border-blue-700 focus:border-blue-700 bg-transparent">
                 </div>
                 
-                <button type="submit" :disabled="name.length < 6 || password.length < 6 || username.length < 3" class="bg-yellow-600 hover:bg-yellow-500 py-3 px-4 mt-4 mb-3 text-black">
+                <button type="submit" :disabled="name.length < 4 || password.length < 6 || username.length < 3" class="bg-yellow-600 hover:bg-yellow-500 py-3 px-4 mt-4 mb-3 text-black">
                     Sign Up
                 </button>
                 <p class="text-xs mb-4">Already have an account? <nuxt-link class="text-yellow-500" to="/login">Sign In</nuxt-link></p>
@@ -49,13 +49,19 @@ export default {
         async register(e) {
             try {
                 e.preventDefault()
-                await this.$axios.post(`http://localhost:1337/api/auth/local/register`, {
+                await this.$axios.post(`${this.$store.state.states.base_host}/api/auth/local/register`, {
                 name: this.name,
                 password: this.password,
                 email: this.email,
                 username: this.username
                 })
-                this.$router.push('login')
+                let next = this.$route.query.next
+                if (next && next[0] === "/"){
+                    window.location.href = next
+                    this.$router.push(`/login?next=${next}`)
+                } else {
+                    this.$router.push('/login')
+                }
             } catch(e) {
                 this.error = true
                 this.email = ''

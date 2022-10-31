@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen text-white mt-24 w-3/5">
+  <div class="h-screen text-white mt-24 md:w-3/5">
     <section>
       <h1>Resources</h1>
       <article v-for="res in resources" :key="res.id">
