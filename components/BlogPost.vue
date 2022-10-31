@@ -1,6 +1,6 @@
 <template>
   <article class="hover:bg-gray-600 cursor-pointer bg-gray-800 shadow my-2 px-4 py-4 rounded">
-      <h2 class="text-3xl mb-3 font-black text-yellow-500">{{data.title?data.title:data.Article.split("\n")[0]}}</h2>
+      <h2 @click="$router.push('/blog/'+id)"  class="text-3xl mb-3 font-black text-yellow-500">{{data.title?data.title:data.Article.split("\n")[0]}}</h2>
       <div class="grid grid-cols-1 md:grid-cols-5">
           <div class="col-span-2">
               <img :src="$store.state.states.base_host + image_url" class="object-cover h-64 w-72" :alt="alt" srcset="">

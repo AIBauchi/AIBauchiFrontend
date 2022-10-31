@@ -15,8 +15,32 @@
         <section id="article-body" class="text-white -mt-1 md:py-8 pb-4 md:px-3 mb-10" v-html="$md.render(article.title?article.Article:article.Article)">
         </section>
       </article>
-      <Featured />
+      <Featured class="mt-3 col-span-3 md:col-span-1 md:mt-0" />
     </div>
+    <section v-if="signedIn" class="px-3 md:w-4/5 flex mx-auto mb-8">
+      <div>
+        <h1 class="text-left font-bold mb-2 font-montserrat">Comment</h1>
+        <div v-if="error" class=" text-red-500 text-center px-4 py-2">
+          {{error}}
+        </div>
+        <div v-if="replying" class="mb-3 rounded-lg bg-yellow-500 text-black text-center px-4 py-2">
+            Replying Comment #{{replying.id}} by {{replying.name}}
+            <i class="material-icons hover:text-white cursor-pointer" @click="replying=''">close</i>
+        </div>
+        <textarea placeholder="Type comment here..." v-model="comment" id="" class=" px-2 text-sm outline-none pb-2 w-full  bg-transparent border-yellow-400  border-b hover:border-blue-700 focus:border-blue-700" cols="50" rows="4"></textarea>
+        <button @click="submitComment" type="submit" class="mt-2 bg-yellow-600 hover:bg-yellow-500 py-3 px-4 mt-4 mb-3 text-black">
+            Submit
+        </button>
+      </div>
+    </section>
+    <p class="w-full text-center mb-8" v-else>
+      <nuxt-link :to="'/login?next=/blog/'+$route.params.id">Login</nuxt-link> or <nuxt-link :to="'/signup?next=/blog/'+$route.params.id">Sign Up</nuxt-link>
+      to comment
+    </p>
+
+    <section class="md:w-3/5 flex align-left mx-auto mb-8 bg-black">
+      <Comments @replying="(data)=>replying=data" :id="$route.params.id" />
+    </section>
   </div>
 </template>
 
@@ -41,7 +65,33 @@ export default {
       image_url,
       alt
     }
-  }
+  },
+  computed: {
+      signedIn(){
+          return JSON.parse(localStorage.getItem("userData"))?true:false
+      }
+  },
+  methods: {
+    submitComment(){
+      this.error = ""
+      const id = this.$route.params.id
+      let url = `${this.$store.state.states.base_comments_url+id}`
+        this.$axios.$post(url, {content: this.comment, threadOf: this.replying.id}).then((data)=>{
+          this.comments = data
+          this.replying = ""
+          this.$router.go()
+        }).catch(()=>{
+          this.error = "Error submitting comment"
+        })
+    }
+  },
+  data() {
+    return {
+      comment: "",
+      replying: "",
+      error: ""
+    }
+  },
 }
 </script>
 <style scoped>
