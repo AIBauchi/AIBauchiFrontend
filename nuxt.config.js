@@ -14,14 +14,20 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', 
+         content: 'AI Bauchi is a STUDENT COMMUNITY.\
+                   A community for students from all across \
+                   bauchi state, providing a platform for learning, \
+                   sharing experiences and leveraging their knowledge to \
+                   create AI-enabled social impact solutions along with spreading \
+                   AI awareness in an inclusive way.' },
       { name: 'format-detection', content: 'telephone=no' },
-      { property: "og:site_name", content: "I Love Painting" },
+      { property: "og:site_name", content: "AI Saturday Bauchi" },
       { hid: "og:type", property: "og:type", content: "website" },
       {
         hid: "og:url",
         property: "og:url",
-        content: "",
+        content: "https://aibauchi.com.ng",
       },
       {
         hid: "og:title",
@@ -31,21 +37,26 @@ export default {
       {
         hid: "og:description",
         property: "og:description",
-        content: ".",
+        content: "AI Bauchi is a STUDENT COMMUNITY.\
+        A community for students from all across \
+        bauchi state, providing a platform for learning, \
+        sharing experiences and leveraging their knowledge to \
+        create AI-enabled social impact solutions along with spreading \
+        AI awareness in an inclusive way.",
       },
       {
         hid: "og:image",
         property: "og:image",
-        content: "/a-lovely-image.png",
+        content: "/logo.png",
       },
-      { property: "og:image:width", content: "740" },
-      { property: "og:image:height", content: "300" },
-      { name: "twitter:site", content: "@bobross" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:image:width", content: "150" },
+      { property: "og:image:height", content: "150" },
+      { name: "twitter:site", content: "@aibauchi" },
+      { name: "twitter:card", content: "AI Saturday Bauchi" },
       {
         hid: "twitter:url",
         name: "twitter:url",
-        content: "https://bobross.com",
+        content: "https://aibauchi.com.ng",
       },
       {
         hid: "twitter:title",
@@ -55,12 +66,17 @@ export default {
       {
         hid: "twitter:description",
         name: "twitter:description",
-        content: "",
+        content: "AI Bauchi is a STUDENT COMMUNITY.\
+        A community for students from all across \
+        bauchi state, providing a platform for learning, \
+        sharing experiences and leveraging their knowledge to \
+        create AI-enabled social impact solutions along with spreading \
+        AI awareness in an inclusive way.",
       },
       {
         hid: "twitter:image",
         name: "twitter:image",
-        content: "/a-loveley-image.png",
+        content: "/logo.png",
       },
 
     ],
