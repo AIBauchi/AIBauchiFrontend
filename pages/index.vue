@@ -1,60 +1,201 @@
 <template>
-  <div id="main">
-    <section class="flex items-center justify-center h-screen w-screen overflow-x-hidden bg-fixed bg-center bg-cover bg-img pt-20">
-      <div class="container"><div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div></div>
-      <div class="p-5 text-2xl text-left text-white bg-opacity-50 container">
-        Welcome to my site!
+  <div id="main" style="overflow-x: hidden">
+    <section class="flex items-center justify-center h-screen w-screen overflow-x-hidden bg-img pt-20">
+      <div class="p-5 text-left w-full text-white bg-opacity-50">
+        <h1 class="text-4xl md:text-5xl font-black animate__animated animate__fadeIn">
+          Predicting the future isn't magic,
+          <br> it's artificial intelligence.
+        </h1>
+        <!-- <div class="text-lg text-center mt-3 text-yellow-500 font-bold">
+          - Dave Waters
+        </div> -->
+        <div class="mt-4 animate__animated animate__fadeInLeft">
+          AI Saturdays Bauchi aims to equip young Nigerians with practical
+          skills needed to venture in the AI world and succeed.
+        </div>
+        <button @click="$router.push('/about')" class="px-4 py-3 text-2xl bg-yellow-600 mt-2 hover:bg-yellow-300 animate__animated animate__fadeIn">
+          Learn More
+        </button>
       </div>
+      <div class="container">
+        <div><div class="bg-text" :class="bg_text_color">AI Saturday bauchi</div></div>
+        <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div></div>
     </section>
-    <section class="m-auto bg-gray-200 bg-fixed bg-center bg-cover" style="height: 70vh">
-        <div class="py-8 h-full px-3 text-black w-full grid grid-cols-5">
-            <div class="col-span-5 md:col-span-3">
-              <h2 class="text-3xl font-black text-center text-gray-600">Rando Text</h2>
-            </div>
-            <div class="col-span-5 md:col-span-2 p-8">
-              <iframe class="w-full h-full" src="https://www.youtube.com/embed/yx5E-9q_r0U" title="Building Learning Communities for AI in Nigeria: AI Saturday Lagos Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+    <section class="m-auto fade-os opacity-0 py-3 bg-gray-800 bg-fixed bg-center bg-cover" style="min-height: 85vh">
+        <h2 class="text-3xl w-full mb-9 mt-7 font-black text-center text-yellow-500">What You'll Gain</h2>
+        <div class="grid md:grid-cols-3 px-2">
+          <article class="w-full h-full px-3 md:px-7 pb-2 fade-os opacity-0">
+            <figure class="bg-gray-900 rounded">
+              <img loading="lazy" src="/ai.jpg" alt="" srcset="" class="h-2/5 w-full object-cover">
+              <figcaption>
+                Build Your AI Skills
+                <div class="text-base text-white font-normal mt-3">
+                  With AI Saturdays Bauchi, you'll learn a lot to get 
+                  you started on your path to becoming an Artificial intelligence
+                  professional.
+                  We offer organized courses in various topics including
+                  Supervised &amp; Unsupervised Machine Learning, Deep Learning
+                  and More
+                </div>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="w-full h-full md:px-7 px-3 fade-os pb-2">
+            <figure class="bg-gray-900 rounded mb-2">
+              <img loading="lazy" src="/teamwork.jpg" alt="" srcset="" class="h-2/5 w-full object-cover">
+              <figcaption class="py-3">
+                Learn In Communtity
+                <div class="text-base text-white font-normal mt-3">
+                  AI Saturdays Bauchi allows people to connect and 
+                  learn along with a community of like minded AI 
+                  enthusiasts.
+
+                </div>
+              </figcaption>
+            </figure>
+          </article>
+          <article class="w-full h-full md:px-7 px-3 pb-2 fade-os opacity-0">
+            <figure class="bg-gray-900 rounded mb-2">
+              <img loading="lazy" src="/mentorship.jpg" alt="" srcset="" class="h-2/5 w-full object-cover">
+              <figcaption>
+                Mentor Support
+                <div class="text-base text-white font-normal mt-3">
+                  Learn about Artificial Intelligence under the guidiance
+                  of experienced professionals.
+                </div>
+              </figcaption>
+            </figure>
+          </article>          
         </div>
     </section>
-    <section class="flex items-center justify-center h-3 w-screen m-auto bg-fixed bg-center bg-cover bg-img">
+    <section class="flex items-center justify-center h-2 w-screen m-auto">
     </section>
-    <section class="m-auto bg-orange bg-fixed bg-center text-white bg-cover" style="height: 70vh">
-        <div class="py-8 h-full px-3 w-full grid grid-cols-5">
-            <div class="col-span-5 md:col-span-3">
-              <h2 class="text-3xl font-black text-center">Rando Text</h2>
-            </div>
-            <div class="col-span-5 md:col-span-2 p-8">
-              <iframe class="w-full h-full" src="https://www.youtube.com/embed/yx5E-9q_r0U" title="Building Learning Communities for AI in Nigeria: AI Saturday Lagos Story" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+    <section id="latest" class="fade-os opacity-0 m-auto bg-gray-500 pt-5 bg-fixed bg-center text-gray-200 bg-cover" style="min-height: 63vh">
+        <h2 class="text-3xl font-black text-center">Latest Updates</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 mt-2 px-3 h-3/4">
+          <article :key="update.id" v-for="update in updates" class="">
+            <h4>{{update.attributes.Title}}</h4>
+            <p class="mb-4">
+              {{update.attributes.Body}}
+            </p>
+            <a v-if="update.attributes.File.data" :href="update.attributes.File.data.attributes.url">{{update.attributes.File.data.attributes.name}}</a>
+            <br>
+            <a v-if="update.attributes.Link" :href="update.attributes.Link">{{update.attributes.Link}}</a>
+          </article>
+        </div>
+        <div class="mx-auto pb-4">
+          <nuxt-link to="/blog" class="px-3 mx-5 py-2 bg-yellow-600 mt-8 hover:bg-yellow-300 text-white inline-block">
+            Visit Our Blog
+          </nuxt-link>
         </div>
     </section>
-    <section class="flex items-center justify-center h-24 w-screen m-auto bg-fixed bg-center bg-cover bg-img">
+    <section class="flex items-center justify-center h-10 w-screen m-auto">
+    </section>
+    <section id="social-icons" class="fade-os opacity-0 m-auto py-6 bg-gray-800 bg-fixed bg-center bg-cover" style="min-height: 32vh">
+        <h2 class="text-lg w-full my-2 font-black text-center text-white">Follow us on our various social media</h2>
+        <div class="px-5 mx-auto w-full md:w-2/5 mt-8 grid grid-cols-4">
+          <a href=""><i class="devicon-facebook-plain"></i></a>
+          <a href=""><i class="devicon-twitter-original"></i></a>
+          <a href=""><i class="devicon-github-original"></i></a>
+          <a href=""><i class="devicon-linkedin-plain"></i></a>
+        </div>
+        <div class="md:w-2/5 px-4 m-auto text-white mt-8">
+          You can alse become a proud member of this community today by joining
+          the whatsapp group via the link below:
+          <a class="inline-block hover:text-yellow-300 text-yellow-500 underline font-black" href="https://chat.whatsapp.com/dfggrtrto!INRIUNGUIR">
+            AI Saturday Bauchi Whatsapp group
+          </a>
+        </div>
     </section>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  async asyncData({ $axios, store }) {
+    let url = `${store.state.states.base_updates_url}?sort=publishedAt%3Adesc&pagination[page]=1&pagination[pageSize]=5&populate=*`
+    let updates = await $axios.$get(url);
+    updates = updates.data
+    return {
+      updates,
+      scroll_class: "",
+      bg_text_color: "text-yellow-500"
+    }
+  },
+  data() {
+    return {
+      fadeElements: []
+    }
+  },
+  mounted() {
+    setInterval(()=>{
+      this.bg_text_color = this.bg_text_color==="text-color-bluish"?"text-yellow-500":"text-color-bluish"
+    }, 1000)
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if ( entry.isIntersecting ) {
+          window.t = entry
+          entry.target.classList.add("animate__animated") 
+          entry.target.classList.add("animate__fadeIn")
+          entry.target.classList.remove("opacity-0")
+          // setTimeout(() => {
+          //   entry.target.classList.remove("animate__animated") 
+          //   entry.target.classList.remove("animate__fadeIn")
+          // }, 2000);
+          }}
+        )
+      },
+      {
+        threshold: [0.2, 0.5, 1.0]
+      }
+    );
+
+    document.querySelectorAll('.fade-os').forEach((el) => observer.observe(el));
+  },
 }
 </script>
+<style>
+  .bg-img, body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/index-bg.jpg");
+    @apply bg-fixed bg-center bg-cover;
+  }
+</style>
 <style scoped>
+  .text-color-bluish {
+    color: #09c0cf;
+  }
+  figcaption {
+    @apply text-2xl font-black text-yellow-500 mt-4 text-center
+  }
+  .animate__animated.animate__fadeInLeft {
+    --animate-duration: 3s;
+  }
+  .animate__animated.animate__fadeIn {
+    --animate-duration: 3s;
+  }
+  figure {
+    @apply h-full
+  }
+  #social-icons i {
+    @apply text-white hover:text-yellow-600;
+    font-size: 3em;
+  }
+  #social-icons a {
+    @apply mx-5 mt-6;
+  }
   #main > .h-screen {
     min-height: 100vh
   } 
-  .bg-img{
-    background-image: url("/index-bg.jpg");
+  #latest article {
+    @apply mt-5
+  }
+  h4 {
+    font-weight: bolder;
   }
 
-
-html,
-body {
-  width: 100vw !important;
-  overflow-x: hidden !important;
-}
-
-body {
-  background-color: #021027;
+article {
+  @apply hover:opacity-70 cursor-pointer
 }
 
 .container {
@@ -77,19 +218,38 @@ body {
           mask-image: radial-gradient(white 0%, white 30%, transparent 80%, transparent);
 }
 
+.bg-text {
+  position: absolute;
+  z-index: 3005;
+  font-size: 0.3em;
+  top: 30vh;
+  left: 10vw;
+  font-weight: bolder;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation: fadein-frames 500ms infinite, scale-frames 2s infinite;
+          animation: fadein-frames 500ms infinite, scale-frames 2s infinite;
+}
+
 .circle-container {
   position: absolute;
   max-width: 100vw;
+  z-index: 3000;
   overflow: hidden;
   transform: translateY(-10vh);
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
+  -webkit-animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
+          animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
 }
 .circle-container .circle {
   width: 100%;
   height: 100%;
+  z-index: 3000;
   border-radius: 50%;
   mix-blend-mode: screen;
   background-image: radial-gradient(#f89723, #f89723 10%, rgba(153, 255, 255, 0) 56%);
@@ -196,6 +356,7 @@ body {
     transform: translate3d(57vw, -108vh, 0);
   }
 }
+
 .circle-container:nth-child(2) .circle {
   -webkit-animation-delay: 1125ms;
           animation-delay: 1125ms;

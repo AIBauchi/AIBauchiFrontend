@@ -7,19 +7,69 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'aisaturday-bauchi',
+    title: 'AI Saturdays Bauchi Website',
     htmlAttrs: {
       lang: 'en'
     },
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, minimum-scale=1' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      { property: "og:site_name", content: "I Love Painting" },
+      { hid: "og:type", property: "og:type", content: "website" },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: "",
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: "AI Saturdays Bauchi",
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content: ".",
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: "/a-lovely-image.png",
+      },
+      { property: "og:image:width", content: "740" },
+      { property: "og:image:height", content: "300" },
+      { name: "twitter:site", content: "@bobross" },
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        hid: "twitter:url",
+        name: "twitter:url",
+        content: "https://bobross.com",
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: "AI Saturday Bauchi",
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: "",
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: "/a-loveley-image.png",
+      },
+
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'}
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?family=Material+Icons'},
+      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css'},
+      { rel: 'stylesheet', href: '/stylesheet.css'},
+      { rel: 'stylesheet', href: '/animate.min.css'}
     ]
   },
 
@@ -50,6 +100,7 @@ export default {
   markdownit: {
     preset: 'default',
     linkify: true,
+    html: true,
     breaks: true,
     injected: true
   },
