@@ -4,13 +4,13 @@
       <h1>Resources</h1>
       <article v-for="res in resources" :key="res.id">
         <h2>{{res.attributes.Title}}</h2>
-        <p>
+        <div>
           {{res.attributes.Body}}
           <div class="links">
             <a v-if="res.attributes.File.data" :href="$store.state.states.base_host + res.attributes.File.data.attributes.url">Download Link for {{res.attributes.File.data.attributes.name}}</a>
             <a v-if="res.attributes.Link" :href="res.attributes.Link">Link</a>
           </div>
-        </p>
+        </div>
       </article>
     </section>
 
@@ -18,11 +18,11 @@
       <h1>External Resources</h1>
       <article v-for="res in exts" :key="res.id">
         <h2>{{res.attributes.Text}}</h2>
-        <p>
+        <div>
           <div class="links">
             <a v-if="res.attributes.Link" :href="res.attributes.Link">Link</a>
           </div>
-        </p>
+        </div>
       </article>
     </section>
   </div>
@@ -32,11 +32,12 @@
 export default {
   name: 'ResourcesPage',
   async asyncData({ $axios, store }) {
-    let url = `${store.state.states.base_res_url}?sort=publishedAt%3Adesc&pagination[page]=1&pagination[pageSize]=10&populate=*`
+    let url = `${store.state.states.base_res_url}?sort=publishedAt%3Adesc&pagination[page]=1&pagination[pageSize]=30&populate=*`
     let resources = await $axios.$get(url)
     resources = resources.data
+    console.log("RESORCE", resources)
 
-    url = `${store.state.states.base_ext_url}?sort=publishedAt%3Adesc&pagination[page]=1&pagination[pageSize]=10&populate=*`
+    url = `${store.state.states.base_ext_url}?sort=publishedAt%3Adesc&pagination[page]=1&pagination[pageSize]=30&populate=*`
     let exts = await $axios.$get(url)
     exts = exts.data
     return {
