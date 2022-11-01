@@ -92,6 +92,64 @@ export default {
       error: ""
     }
   },
+  head(){
+    const article = this.article
+    const image_url = this.image_url
+    const base_host = this.$store.state.states.base_host
+    return {
+      title: article.title,
+      meta: [ 
+        {
+        hid: 'description',
+        name: 'description',
+        content: article.Summary
+      },
+      {
+        hid: "og:url",
+        property: "og:url",
+        content: "https://aibauchi.com.ng" + this.$route.path,
+      },
+      {
+        hid: "og:title",
+        property: "og:title",
+        content: article.title,
+      },
+      {
+        hid: "og:description",
+        property: "og:description",
+        content: article.Summary,
+      },
+      {
+        hid: "og:image",
+        property: "og:image",
+        content: base_host + image_url,
+      },
+      { name: "twitter:site", content: "@aibauchi" },
+      { name: "twitter:card", content: "AI Saturday Bauchi" },
+      {
+        hid: "twitter:url",
+        name: "twitter:url",
+        content: "https://aibauchi.com.ng" + this.$route.path,
+      },
+      {
+        hid: "twitter:title",
+        name: "twitter:title",
+        content: article.title,
+      },
+      {
+        hid: "twitter:description",
+        name: "twitter:description",
+        content: article.Summary,
+      },
+      {
+        hid: "twitter:image",
+        name: "twitter:image",
+        content: base_host + image_url,
+      },
+
+        ],
+    }
+  }
 }
 </script>
 <style scoped>

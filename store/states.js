@@ -24,7 +24,8 @@ export const state = () => ({
     base_comments_url: `${base_host}/api/comments/api::aisaturdaybauchi-1.aisaturdaybauchi-1:`,
     auth_token: "",
     default_image: "/uploads/thumbnail_path1276_e3320fa1e3.png",
-    to_relative_days: relativeDays
+    to_relative_days: relativeDays,
+    article: {}
   })
   
   export const mutations = {

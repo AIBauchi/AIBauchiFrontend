@@ -1,5 +1,5 @@
 <template>
-    <div class="text-white text-center min-h-36 pb-2 m-auto bg-black">
+    <div class="text-white text-center min-h-36 mt-6 pb-2 m-auto bg-black">
         <div class="links h-20 grid grid-cols-4 pt-6 pb-3">
             <nuxt-link to="/">Home</nuxt-link>
             <nuxt-link to="/resources">Resources</nuxt-link>
