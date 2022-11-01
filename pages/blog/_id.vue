@@ -12,7 +12,7 @@
               <div><i class="large material-icons">access_time</i> <time class="text-yellow-300 ml-2 inline-block mb-2">{{$store.state.states.to_relative_days(article.publishedAt.split(".")[0])}}</time></div>
               <div class="mt-2"><i class="large material-icons">person</i><a href="/about" class=" ml-2 mb-2 inline-block text-yellow-300 hover:text-yellow-100 underline decoration-dashed">{{article.author.data?article.author.data.attributes.username:'Unknown'}}</a></div>
         </div>
-        <section id="article-body" class="text-white -mt-1 md:py-8 pb-4 md:px-3 mb-10" v-html="$md.render(article.title?article.Article:article.Article)">
+        <section id="article-body" class="leading-loose text-white -mt-1 md:py-8 pb-4 md:px-3 mb-10" v-html="$md.render(article.title?article.Article:article.Article)">
         </section>
       </article>
       <Featured class="mt-3 col-span-3 md:col-span-1 md:mt-0" />
