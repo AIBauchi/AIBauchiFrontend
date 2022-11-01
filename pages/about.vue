@@ -45,7 +45,7 @@
 
       <section class="pt-16 mb-15 pb-10 px-5">
         <h2 class="text-3xl font-bold text-yellow-600 mb-3 text-center">Our Team</h2>
-        <div class="grid md:grid-cols-3 px-3 lg:px-18">
+        <div class="grid md:grid-cols-3 px-3 lg:px-36">
           <figure v-for="member in team" :key="member.id">
             <img :src="$store.state.states.base_host + member.attributes.Image.data.attributes.url" alt="" srcset="" class="w-full object-cover">
             <figcaption>
@@ -59,7 +59,7 @@
                 <a :href="'https://www.facebook.com/'+member.attributes.Facebook_Username"><i class="devicon-facebook-plain"></i></a>
                 <a :href="'https://www.twitter.com/'+member.attributes.Twitter_Username"><i class="devicon-twitter-original"></i></a>
                 <a :href="'https://www.github.com/'+member.attributes.Github_Username"><i class="devicon-github-original"></i></a>
-                <a :href="'https://www.linkedin.com/'+member.attributes.LinkedIn_Username"><i class="devicon-linkedin-plain"></i></a>
+                <a :href="'https://www.linkedin.com/in/'+member.attributes.LinkedIn_Username"><i class="devicon-linkedin-plain"></i></a>
               </div>
             </figcaption>
           </figure>
@@ -72,7 +72,7 @@
 export default {
   name: 'AboutPage',
   async asyncData({ $axios, store }) {
-    let url = `${store.state.states.base_teams_url}?sort=publishedAt%3Adesc&pagination[page]=1&pagination[pageSize]=10&populate=*`
+    let url = `${store.state.states.base_teams_url}?sort=publishedAt%3Aasc&pagination[page]=1&pagination[pageSize]=10&populate=*`
     let team = await $axios.$get(url);
     team = team.data
     return {
@@ -91,13 +91,13 @@ export default {
 
    figure {
      @apply mx-6 bg-gray-900 rounded mt-4 pb-2;
-     min-height: 60vh;
+     min-height: 70vh;
    }
    figcaption {
      @apply px-3
    }
    figure img {
-     height: 35vh;
+     height: 45vh;
    }
 
   figcaption h4 {
