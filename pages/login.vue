@@ -28,7 +28,7 @@ export default {
   name: 'LoginPage',
   data(){
     return {
-        email: '',in
+        email: '',
         password: '',
         error: false,
         errorMsg: 'An error occurred'
