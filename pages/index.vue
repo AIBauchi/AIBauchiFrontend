@@ -21,15 +21,15 @@
         <div><div class="bg-text" :class="bg_text_color">AI Saturday bauchi</div></div>
         <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div> <div class="circle-container"> <div class="circle"></div> </div></div>
     </section>
-    <section class="m-auto fade-os opacity-0 py-3 bg-gray-800 bg-fixed bg-center bg-cover" style="min-height: 85vh">
+    <section id="offer" class="m-auto fade-os opacity-0 py-3 bg-gray-800 bg-fixed bg-center bg-cover" style="min-height: 85vh">
         <h2 class="text-3xl w-full mb-9 mt-7 font-black text-center text-yellow-500">What You'll Gain</h2>
         <div class="grid md:grid-cols-3 px-2">
           <article class="w-full h-full px-3 md:px-7 pb-2 fade-os opacity-0">
             <figure class="bg-gray-900 rounded">
-              <img loading="lazy" src="/ai.png" alt="" srcset="" class="h-2/5 w-full object-cover">
-              <figcaption>
+              <img loading="lazy" src="/ai.png" alt="" srcset=""  class="w-full object-cover">
+              <figcaption class="px-3">
                 Build Your AI Skills
-                <div class="text-base text-white font-normal mt-3">
+                <div class="text-xl text-white font-normal mt-3">
                   With AI Saturdays Bauchi, you'll learn a lot to get 
                   you started on your path to becoming an Artificial intelligence
                   professional.
@@ -42,10 +42,10 @@
           </article>
           <article class="w-full h-full md:px-7 px-3 fade-os pb-2">
             <figure class="bg-gray-900 rounded mb-2">
-              <img loading="lazy" src="/teamwork.png" alt="" srcset="" class="h-2/5 w-full object-cover">
-              <figcaption class="py-3">
+              <img loading="lazy" src="/teamwork.png" alt="" srcset=""  class="w-full object-cover">
+              <figcaption class="py-3 px-3">
                 Learn In Communtity
-                <div class="text-base text-white font-normal mt-3">
+                <div class="text-xl text-white font-normal mt-3">
                   AI Saturdays Bauchi allows people to connect and 
                   learn along with a community of like minded AI 
                   enthusiasts.
@@ -56,10 +56,10 @@
           </article>
           <article class="w-full h-full md:px-7 px-3 pb-2 fade-os opacity-0">
             <figure class="bg-gray-900 rounded mb-2">
-              <img loading="lazy" src="/mentorship.png" alt="" srcset="" class="h-2/5 w-full object-cover">
-              <figcaption>
+              <img loading="lazy" src="/mentorship.png" alt="" srcset="" class=" w-full object-cover">
+              <figcaption class="px-3">
                 Mentor Support
-                <div class="text-base text-white font-normal mt-3">
+                <div class="text-xl text-white font-normal mt-3">
                   Learn about Artificial Intelligence under the guidiance
                   of experienced professionals.
                 </div>
@@ -173,6 +173,13 @@ export default {
   }
   .animate__animated.animate__fadeIn {
     --animate-duration: 3s;
+  }
+  #offer img {
+    height: 26vh
+  }
+
+  #offer article:hover {
+    transform: scale(1.1)
   }
   figure {
     @apply h-full
