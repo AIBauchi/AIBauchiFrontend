@@ -26,7 +26,7 @@
         <div class="grid md:grid-cols-3 px-2">
           <article class="w-full h-full px-3 md:px-7 pb-2 fade-os opacity-0">
             <figure class="bg-gray-900 rounded">
-              <img loading="lazy" src="/ai.jpg" alt="" srcset="" class="h-2/5 w-full object-cover">
+              <img loading="lazy" src="/ai.png" alt="" srcset="" class="h-2/5 w-full object-cover">
               <figcaption>
                 Build Your AI Skills
                 <div class="text-base text-white font-normal mt-3">
@@ -42,7 +42,7 @@
           </article>
           <article class="w-full h-full md:px-7 px-3 fade-os pb-2">
             <figure class="bg-gray-900 rounded mb-2">
-              <img loading="lazy" src="/teamwork.jpg" alt="" srcset="" class="h-2/5 w-full object-cover">
+              <img loading="lazy" src="/teamwork.png" alt="" srcset="" class="h-2/5 w-full object-cover">
               <figcaption class="py-3">
                 Learn In Communtity
                 <div class="text-base text-white font-normal mt-3">
@@ -56,7 +56,7 @@
           </article>
           <article class="w-full h-full md:px-7 px-3 pb-2 fade-os opacity-0">
             <figure class="bg-gray-900 rounded mb-2">
-              <img loading="lazy" src="/mentorship.jpg" alt="" srcset="" class="h-2/5 w-full object-cover">
+              <img loading="lazy" src="/mentorship.png" alt="" srcset="" class="h-2/5 w-full object-cover">
               <figcaption>
                 Mentor Support
                 <div class="text-base text-white font-normal mt-3">
