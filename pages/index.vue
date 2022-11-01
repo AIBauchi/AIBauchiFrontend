@@ -100,7 +100,7 @@
           <a href="https://www.linkedin.com/company/aibauchi/"><i class="devicon-linkedin-plain"></i></a>
         </div>
         <div class="md:w-2/5 px-4 m-auto text-white mt-8">
-          You can alse become a proud member of this community today by joining
+          You can also become a proud member of this community today by joining
           the whatsapp group via the link below:
           <a class="inline-block hover:text-yellow-300 text-yellow-500 underline font-black" href="https://chat.whatsapp.com/CucATKXzx8aIosbH4hUskL">
             AI Saturday Bauchi Whatsapp group
