@@ -16,7 +16,7 @@
                 <button type="submit" class="mt-2 bg-yellow-600 hover:bg-yellow-500 py-3 px-4 mt-4 mb-3 text-black">
                     Sign Up
                 </button>
-                <p class="text-xs mb-4">Don't have an account? <nuxt-link class="text-yellow-500" to="/signup">Sign Up</nuxt-link></p>
+                <p class="text-xs mb-4">Don't have an account? <nuxt-link class="text-yellow-500" to="/signup">Log in</nuxt-link></p>
             </fieldset>
         </form>
     </div>
@@ -28,7 +28,7 @@ export default {
   name: 'LoginPage',
   data(){
     return {
-        email: '',
+        email: '',in
         password: '',
         error: false,
         errorMsg: 'An error occurred'
