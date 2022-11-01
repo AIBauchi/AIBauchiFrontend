@@ -55,9 +55,10 @@
       finalDelete(){
         let {id, authorId} = this.delete_target
         let url = `${this.$store.state.states.base_comments_url+this.id}/comment/${id}?authorId=${authorId}`
-        this.$axios.$get(url).then((data)=>{
+        this.$axios.$delete(url).then((data)=>{
           this.comments = data
           this.show_modal = false
+          this.$router.go()
         }).catch(()=>{
           this.error = "Could not delete"
         })
