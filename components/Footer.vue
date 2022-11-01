@@ -8,12 +8,17 @@
         </div>
         <div class="social-links mx-auto mt-4">
             <a href=""><i class="devicon-facebook-plain"></i></a>
-            <a href=""><i class="devicon-twitter-original"></i></a>
-            <a href=""><i class="devicon-github-original"></i></a>
-            <a href=""><i class="devicon-linkedin-plain"></i></a>
+            <a href="https://www.twitter.com/AIBauchi"><i class="devicon-twitter-original"></i></a>
+            <a href="https://github.com/AIBauchi"><i class="devicon-github-original"></i></a>
+            <a href="https://www.linkedin.com/company/aibauchi/"><i class="devicon-linkedin-plain"></i></a>
         </div>
         <span class="text-sm">&copy; Copyright 2022 AI Saturdays Bauchi - All Rights Reserved</span>
         <div class="text-xs mt-4"><a href="https://www.freepik.com/free-vector/human-nervous-system_4239572.htm#query=artificial%20intelligence%20background%20dark&position=1&from_view=search&track=sph">Background image by rawpixel.com</a> on Freepik</div>
+        <!-- Photo by <a href="https://unsplash.com/@hannahbusing?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hannah Busing</a> on <a href="https://unsplash.com/s/photos/community?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@maximalfocus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maximalfocus</a> on <a href="https://unsplash.com/s/photos/artificial-intelligence?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+        Photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/mentor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  
+  
     </div>
 </template>
 <style scoped>

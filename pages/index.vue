@@ -95,9 +95,9 @@
         <h2 class="text-lg w-full my-2 font-black text-center text-white">Follow us on our various social media</h2>
         <div class="px-5 mx-auto w-full md:w-2/5 mt-8 grid grid-cols-4">
           <a href=""><i class="devicon-facebook-plain"></i></a>
-          <a href=""><i class="devicon-twitter-original"></i></a>
-          <a href=""><i class="devicon-github-original"></i></a>
-          <a href=""><i class="devicon-linkedin-plain"></i></a>
+          <a href="https://www.twitter.com/AIBauchi"><i class="devicon-twitter-original"></i></a>
+          <a href="https://github.com/AIBauchi"><i class="devicon-github-original"></i></a>
+          <a href="https://www.linkedin.com/company/aibauchi/"><i class="devicon-linkedin-plain"></i></a>
         </div>
         <div class="md:w-2/5 px-4 m-auto text-white mt-8">
           You can alse become a proud member of this community today by joining
