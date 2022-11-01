@@ -54,12 +54,12 @@
               <div class="text-base text-white font-normal mt-3">
                 {{member.attributes.Description}}
               </div>
-              <a :href="'mailto:'+member.attributes.Email">Email Address: {{member.attributes.Email}}</a>
+              <a v-if="member.attributes.Email" :href="'mailto:'+member.attributes.Email">Email Address: {{member.attributes.Email}}</a>
               <div class="social-links mx-auto mt-4">
-                <a :href="'https://www.facebook.com/'+member.attributes.Facebook_Username"><i class="devicon-facebook-plain"></i></a>
-                <a :href="'https://www.twitter.com/'+member.attributes.Twitter_Username"><i class="devicon-twitter-original"></i></a>
-                <a :href="'https://www.github.com/'+member.attributes.Github_Username"><i class="devicon-github-original"></i></a>
-                <a :href="'https://www.linkedin.com/in/'+member.attributes.LinkedIn_Username"><i class="devicon-linkedin-plain"></i></a>
+                <a v-if="member.attributes.Facebook_Username" :href="'https://www.facebook.com/'+member.attributes.Facebook_Username"><i class="devicon-facebook-plain"></i></a>
+                <a v-if="member.attributes.Twitter_Username" :href="'https://www.twitter.com/'+member.attributes.Twitter_Username"><i class="devicon-twitter-original"></i></a>
+                <a v-if="member.attributes.Github_Username" :href="'https://www.github.com/'+member.attributes.Github_Username"><i class="devicon-github-original"></i></a>
+                <a v-if="member.attributes.LinkedIn_Username" :href="'https://www.linkedin.com/in/'+member.attributes.LinkedIn_Username"><i class="devicon-linkedin-plain"></i></a>
               </div>
             </figcaption>
           </figure>

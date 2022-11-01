@@ -14,7 +14,7 @@
       </article>
     </section>
 
-    <section>
+    <section class="mb-5">
       <h1>External Resources</h1>
       <article v-for="res in exts" :key="res.id">
         <h2>{{res.attributes.Text}}</h2>
