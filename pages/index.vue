@@ -1,6 +1,6 @@
 <template>
   <div id="main" style="overflow-x: hidden">
-    <section class="flex items-center justify-center h-screen w-screen overflow-x-hidden bg-img pt-20">
+    <section class="flex items-center justify-center h-screen w-screen overflow-x-hidden pt-20">
       <div class="p-5 text-left w-full text-white bg-opacity-50">
         <h1 class="text-4xl md:text-5xl font-black animate__animated animate__fadeIn">
           Predicting the future isn't magic,
