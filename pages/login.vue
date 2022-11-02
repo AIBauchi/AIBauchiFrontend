@@ -31,7 +31,7 @@ export default {
         email: '',
         password: '',
         error: false,
-        errorMsg: 'An error occurred'
+        errorMsg: 'Login Failed'
     }
   },
   methods: {
