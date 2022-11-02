@@ -48,7 +48,8 @@ export default {
     }
   },
   watch: {
-    formdata(newdata){
+    formdata: {
+         handler(newdata){
             console.log("new", newdata)
             if (newdata.name.length < 4){
                 this.error = true
@@ -61,8 +62,9 @@ export default {
                 this.error = true
                 this.errorMsg = "Ensure username is atleast 3 characters long"
             }
-
-        }
+         }
+        },
+   deep: true
   },
   methods: {
         async register(e) {
