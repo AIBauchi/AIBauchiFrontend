@@ -49,6 +49,7 @@ export default {
   },
   watch: {
     formdata(newdata){
+            console.log("new", newdata)
             if (newdata.name.length < 4){
                 this.error = true
                 this.errorMsg = "Ensure name is atleast 4 characters long"
