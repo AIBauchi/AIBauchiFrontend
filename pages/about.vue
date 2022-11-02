@@ -22,7 +22,7 @@
         <article>
           You can become a proud member of this community today by joining
           the whatsapp group via the link below:
-          <a class="mt-2 font-black block" href="https://chat.whatsapp.com/dfggrtrto!INRIUNGUIR">
+          <a class="mt-2 font-black block" href="https://chat.whatsapp.com/CucATKXzx8aIosbH4hUskL">
             AI Saturday Bauchi Whatsapp group
           </a>
         </article>
