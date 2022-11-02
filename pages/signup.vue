@@ -49,6 +49,7 @@ export default {
   },
   watch: {
     formdata: {
+         deep: true,
          handler(newdata){
             console.log("new", newdata)
             if (newdata.name.length < 4){
@@ -64,7 +65,6 @@ export default {
             }
          }
         },
-   deep: true
   },
   methods: {
         async register(e) {
