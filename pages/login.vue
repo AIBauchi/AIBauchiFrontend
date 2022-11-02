@@ -1,10 +1,10 @@
 <template>
   <div class="min-h-screen text-white mt-28 px-3">
     <div class="mx-auto md:w-2/5 bg-gray-600 px-8 py-4 rounded">
-        <p v-show="error" class="text-sm text-red-500">{{ errorMsg }}</p>
         <form @submit="login" class="mt-5">
             <fieldset>
                 <legend class="text-3xl mb-8 font-bold text-yellow-600">Log In</legend>
+                <p v-show="error" class="text-sm text-red-500">{{ errorMsg }}</p>
                 <div class="my-4">
                     <h1 class="text-left font-bold mb-2 font-montserrat">Email</h1>
                     <input type="email" v-model="email" class="text-sm outline-none pb-2 w-full  bg-transparent border-yellow-400  border-b hover:border-blue-700 focus:border-blue-700">
