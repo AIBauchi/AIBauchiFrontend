@@ -47,7 +47,7 @@
         <h2 class="text-3xl font-bold text-yellow-600 mb-3 text-center">Our Team</h2>
         <div class="grid md:grid-cols-3 px-3 lg:px-36">
           <figure v-for="member in team" :key="member.id">
-            <img :src="$store.state.states.base_host + member.attributes.Image.data.attributes.url" alt="" srcset="" class="w-full object-cover" style="border-radius:10px;>
+            <img :src="$store.state.states.base_host + member.attributes.Image.data.attributes.url" alt="" srcset="" class="w-full object-cover rounded-t">
             <figcaption>
               <h4>{{member.attributes.Name}}</h4>
               <p class="role">{{member.attributes.Role}}</p>
