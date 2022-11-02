@@ -62,7 +62,7 @@ export default {
             }
 
         }
-  }
+  },
   methods: {
         async register(e) {
             try {
