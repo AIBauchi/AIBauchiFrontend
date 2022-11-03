@@ -7,7 +7,7 @@
           </div>
           <div class="col-span-3 pl-3 mt-2">
               <div class="grid grid-cols-2 mb-3 text-sm">
-                <div class="py-3 text-yellow-400 grid grid-cols-4"><i class="large material-icons">person</i> <a href="/about" class="text-sm ml-2 mb-3 inline-block text-sm text-yellow-300 hover:text-yellow-100 underline decoration-dashed">{{author}}</a></div>
+                <div class="py-3 text-yellow-400 grid grid-cols-4"><i class="large material-icons">person</i> <a href="/about" class="text-sm ml-2 mb-3 inline-block text-sm text-yellow-300 hover:text-yellow-100 underline truncate decoration-dashed">{{author}}</a></div>
                 <div class="grid grid-cols-4 py-3"><i class="large material-icons">access_time</i> <time class="text-yellow-300 text-sm pb-5 ml-2 inline-block my-auto">{{$store.state.states.to_relative_days(data.publishedAt.split(".")[0])}}</time></div>
             </div>
             <div class="pb-4 break-all" v-html="$md.render(data.Summary?data.Summary:data.Article.slice(0, 120))+'...'">
