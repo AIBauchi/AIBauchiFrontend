@@ -6,7 +6,7 @@
           <h2 class="align-middle text-6xl font-black text-yellow-400">{{article.title?article.title:article.Article.split("\n")[0]}}</h2>
         </div>
     </div>
-    <div class="flex flex-wrap w-full md:mx-auto mb-5 bg-gray-800 px-1 md:w-5/6 md:px-6  md:mt-0 md:mx-7">
+    <div class="flex flex-wrap w-full md:mx-auto mb-5 bg-gray-800 px-1 md:w-5/6 md:mt-0">
       <article class="w-full md:w-2/3 md:mt-5 md:px-4 rounded lg:px-16">
         <div class="text-sm text-yellow-400 mb-2 md:mb-5 text-italics mt-1">
               <div><i class="large material-icons">access_time</i> <time class="text-yellow-300 ml-2 inline-block mb-2">{{$store.state.states.to_relative_days(article.publishedAt.split(".")[0])}}</time></div>
