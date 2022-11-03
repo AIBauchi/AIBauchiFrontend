@@ -21,7 +21,7 @@
         </div>
         <div v-if="$store.state.states.show_sm_navbar" @click.stop="" class="md:hidden absolute right-0 top-0 bg-black grid text-yellow-600 text-lg grid-rows-4 w-1/2 h-screen" style="z-index: 20000000">
             <div class="grid grid-rows-4"><i @click.stop="$store.commit('states/change_state', false)" class="material-icons mt-3 ml-2 text-3xl text-gray-300">close</i></div>
-            <div class="grid grid-rows-5 sm-nav" @click="$store.commit('states/change_state', false)">
+            <div class="grid grid-rows-5 sm-nav">
                 <nuxt-link to="/resources">Resources</nuxt-link>
                 <nuxt-link to="/blog">Blog</nuxt-link>
                 <nuxt-link to="/about">About Us</nuxt-link>
