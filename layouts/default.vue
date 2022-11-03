@@ -30,6 +30,11 @@ export default {
           return Promise.reject(error);
         });
 
+    },
+    watch: {
+       $route(){
+           this.$store.commit('states/change_state', false)
+       }
     }
 }
 </script>
