@@ -22,11 +22,11 @@
         <div v-if="$store.state.states.show_sm_navbar" @click.stop="" class="md:hidden absolute right-0 top-0 bg-black grid text-yellow-600 text-lg grid-rows-4 w-1/2 h-screen" style="z-index: 20000000">
             <div class="grid grid-rows-4"><i @click.stop="$store.commit('states/change_state', false)" class="material-icons mt-3 ml-2 text-3xl text-gray-300">close</i></div>
             <div class="grid grid-rows-5 sm-nav">
-                <nuxt-link to="/resources">Resources</nuxt-link>
-                <nuxt-link to="/blog">Blog</nuxt-link>
-                <nuxt-link to="/about">About Us</nuxt-link>
+                <nuxt-link @click="$store.commit('states/change_state', false)" to="/resources">Resources</nuxt-link>
+                <nuxt-link @click="$store.commit('states/change_state', false)" to="/blog">Blog</nuxt-link>
+                <nuxt-link @click="$store.commit('states/change_state', false)" to="/about">About Us</nuxt-link>
                 <a @click="logout" v-if="signedIn">Log out</a>
-                <nuxt-link to="/login" v-else>Log in</nuxt-link>
+                <nuxt-link @click="$store.commit('states/change_state', false)" to="/login" v-else>Log in</nuxt-link>
             </div>
         </div>
         <div v-if="!$store.state.states.show_sm_navbar" @click.stop="$store.commit('states/change_state', true)" class="md:hidden text-center mt-2"><i class="material-icons text-yellow-200">dehaze</i></div>
