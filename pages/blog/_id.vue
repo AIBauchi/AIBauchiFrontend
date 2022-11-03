@@ -6,8 +6,8 @@
           <h2 class="align-middle text-6xl font-black text-yellow-400">{{article.title?article.title:article.Article.split("\n")[0]}}</h2>
         </div>
     </div>
-    <div class="grid grid-cols-3 w-full md:mx-auto mb-5 flex bg-gray-800 px-1 md:w-5/6 md:px-6  md:mt-0 md:mx-7">
-      <article class="col-span-3 md:col-span-2 md:mt-5 md:px-4 rounded lg:px-16">
+    <div class="flex flex-wrap w-full md:mx-auto mb-5 bg-gray-800 px-1 md:w-5/6 md:mt-0">
+      <article class="w-full md:w-2/3 md:mt-5 md:px-4 rounded lg:px-16">
         <div class="text-sm text-yellow-400 mb-2 md:mb-5 text-italics mt-1">
               <div><i class="large material-icons">access_time</i> <time class="text-yellow-300 ml-2 inline-block mb-2">{{$store.state.states.to_relative_days(article.publishedAt.split(".")[0])}}</time></div>
               <div class="mt-2"><i class="large material-icons">person</i><a href="/about" class=" ml-2 mb-2 inline-block text-yellow-300 hover:text-yellow-100 underline decoration-dashed">{{article.author.data?article.author.data.attributes.username:'Unknown'}}</a></div>
@@ -15,7 +15,7 @@
         <section id="article-body" class="leading-loose text-white -mt-1 md:py-8 pb-4 md:px-3 mb-10" v-html="$md.render(article.title?article.Article:article.Article)">
         </section>
       </article>
-      <Featured class="mt-3 col-span-3 md:col-span-1 md:mt-0" />
+      <Featured class="mt-3 w-full md:w-1/3 md:mt-0" />
     </div>
     <section v-if="signedIn" class="px-3 md:w-4/5 flex mx-auto mb-8">
       <div>
