@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="LlnLW44awoxzWApxtYhA3vyZgQ44tK2Q_sg66Jb_9Rg" />
 <template>
   <header :class="navbar" class="fixed top-0 pt-3 md:pt-5 py-4 w-screen animate__animated animate__fadeIn" style="z-index: 4000">
     <nav class="grid text-white grid-cols-4 w-full md:pr-10">
